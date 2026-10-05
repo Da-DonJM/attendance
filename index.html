@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DonJM | Student Attendance Checker</title><link rel="stylesheet" href="style.css">
+</head><body>
+<header class="hero"><div class="top"><div class="logo">D</div><div><b>DonJM</b><small>STUDENT ATTENDANCE PORTAL</small></div></div>
+<div class="heroText"><span>SMART ATTENDANCE CHECKER</span><h1>Check Your Weekly Attendance</h1><p>Enter any part of your name to view your attendance for every class session.</p></div></header>
+<main><section class="searchCard"><label for="q">Search your name</label><div class="search"><span>⌕</span><input id="q" autocomplete="off" placeholder="First name, last name or full name"><button id="clear">Clear</button></div><div class="tip">You can type any part of your name.</div><div id="matches"></div></section>
+<section id="welcome" class="welcome"><div>✓</div><h2>Find your attendance record</h2><p>Start typing your name above.</p></section>
+<section id="result" class="result hidden"><div class="person"><div><span>ATTENDANCE RECORD</span><h2 id="name"></h2></div><button id="again">Search Again</button></div>
+<div class="cards"><article><small>WEEKLY AVERAGE</small><strong id="avg"></strong><em>Average of all 5 sessions</em></article><article><small>TOTAL HOURS ATTENDED</small><strong id="hours"></strong><em>10.00 hours expected</em></article><article><small>DAYS ATTENDED</small><strong id="days"></strong><em>Out of 5 sessions</em></article></div>
+<div class="dailyTitle"><h3>Daily Attendance</h3><span>120 minutes per session</span></div><div id="daysGrid" class="grid"></div>
+<div class="rule"><b>Calculation:</b> Each daily percentage is based on 120 minutes. Weekly average is the average of the five daily percentages.</div>
+</section></main><footer>DonJM • Student Attendance Checker</footer>
+<script src="data.js"></script><script src="app.js"></script></body></html>

@@ -1,0 +1,1 @@
+Upload all four files to the same hosting folder and open index.html. The data is sourced from the Daily Calculation sheet, which contains the authoritative 120-minute daily calculations. Weekly average is calculated from the five daily percentages; expected weekly hours = 10.
